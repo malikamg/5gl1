@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 /***
  * 
- * @author malik
+ * @author malik 23
  *
  */
 public class Car {
@@ -19,7 +19,7 @@ public class Car {
 		{
 			if(smsModule.isReady()){
 				try {
-					smsModule.send("", "alarme");
+					smsModule.send("123456", "alarme");
 					
 				} catch (Exception e) {
 					System.out.println(("num tel obligatoir"));
